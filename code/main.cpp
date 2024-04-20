@@ -6,7 +6,7 @@
 
 #include <cmath>
 #include <iostream>
-#include "opencv4/opencv2/opencv.hpp"
+#include "opencv2/opencv.hpp"
 
 using namespace std;
 using namespace cv;
@@ -17,7 +17,7 @@ namespace plt = matplotlibcpp;
 int main()
 {
     // location to dataset
-    string HOME_DIR = "../../mnistdataset/";
+    string HOME_DIR = "../mnistdataset/";
     string train_image = HOME_DIR + "train-images-idx3-ubyte";
     string train_label = HOME_DIR + "train-labels-idx1-ubyte";
     string test_image = HOME_DIR + "t10k-images-idx3-ubyte";
