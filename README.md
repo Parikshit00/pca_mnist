@@ -1,6 +1,9 @@
 # Principle Component Analysis on MNIST dataset
 
-This is an implementation of PCA algorithm on MNIST dataset from scratch in C++.
+This is an implementation of PCA algorithm on MNIST dataset from scratch in C++.  
+
+If you are interested in the eigen vector QR decomposition code. Refer to: `code/incude/eigenQR.h` & `code/build/eigenQR.cpp`  
+
 # Installation 
 - g++ or clang compiler
 - opencv c++
